@@ -1,0 +1,18 @@
+include MANIFEST.in
+include requirements.txt
+include *.json
+include *.md
+include *.py
+include *.txt
+recursive-include silap_vouchers *.css
+recursive-include silap_vouchers *.csv
+recursive-include silap_vouchers *.html
+recursive-include silap_vouchers *.ico
+recursive-include silap_vouchers *.js
+recursive-include silap_vouchers *.json
+recursive-include silap_vouchers *.md
+recursive-include silap_vouchers *.png
+recursive-include silap_vouchers *.py
+recursive-include silap_vouchers *.svg
+recursive-include silap_vouchers *.txt
+recursive-exclude silap_vouchers *.pyc
