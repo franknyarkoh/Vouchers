@@ -7,4 +7,7 @@ import frappe
 from frappe.model.document import Document
 
 class RequestLine(Document):
-	pass
+	quantity = int(input("Quantity: "))
+	price = int(input"Price: "))
+	amount = quantity * price
+	total = sum(amount)
